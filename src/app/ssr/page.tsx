@@ -2,16 +2,16 @@
 
 import React from 'react';
 
-interface SSRProps {
-  message: string;
-}
+// interface SSRProps {
+//   message: string;
+// }
 
 const SSRExplanation: React.FC = () => {
   return (
     <div className="flex flex-col gap-2 my-5 mx-auto max-w-xl">
       <h1 className="text-3xl">Server-Side Rendering (SSR)</h1>
       <p>
-        <strong>Cos'è SSR?</strong> Server-Side Rendering è un metodo in cui il server genera una
+        <strong>Cos&apos;è SSR?</strong> Server-Side Rendering è un metodo in cui il server genera una
         nuova pagina HTML per ogni richiesta. Questo garantisce che i dati mostrati siano sempre
         aggiornati.
       </p>

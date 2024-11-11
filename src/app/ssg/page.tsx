@@ -7,7 +7,7 @@ const SSGExplanation: React.FC = () => {
     <div className="flex flex-col gap-2 my-5 mx-auto max-w-xl">
       <h1 className="text-3xl">Static Site Generation (SSG)</h1>
       <p>
-        <strong>Cos'è SSG?</strong> Static Site Generation è un modo per
+        <strong>Cos&apos;è SSG?</strong> Static Site Generation è un modo per
         generare pagine statiche al momento del build. Questo significa che il
         server costruisce le pagine in anticipo, rendendole velocissime da
         caricare quando un utente visita il sito.
